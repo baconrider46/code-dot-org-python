@@ -13,8 +13,8 @@ artist = codestudio.load('s1level24')
 a = artist
 
 artist.move_forward(100)
-# TODO replace this line with code to make the artist turn right
-# TODO replace this line with code make the artist move forward
+artist.turn_right(90)
+artist.move_forward(100)
 
 artist.check()
 
